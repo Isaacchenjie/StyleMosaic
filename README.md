@@ -1,7 +1,7 @@
 # StyleMosaic
 To create a big image with lots of small images
 
-run puzzle.py like this: python puzzle.py -i input.jpg -ri row_img/ -p processed_img/  
+run puzzle.py like this: python puzzle.py -i input.jpg -ri raw_img/ -p processed_img/  
 or just run start.bat  
 here are meanings of all parameters:  
 -i: input image  
@@ -13,3 +13,5 @@ here are meanings of all parameters:
 -f: blend factor  
 -is: mosaic image size  
 -os: output image size  
+  
+make sure that processed_img has already been created
